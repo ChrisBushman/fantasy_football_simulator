@@ -1,0 +1,27 @@
+{
+  "name": "fantasy_football_simulator",
+  "version": "1.0.0",
+  "description": "A Phaser3 party game where players swarm and rush to get the hottest takes and the best insider info to build the best fantasy lineup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisBushman/fantasy_football_simulator.git"
+  },
+  "author": "Chris Bushman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisBushman/fantasy_football_simulator/issues"
+  },
+  "homepage": "https://github.com/ChrisBushman/fantasy_football_simulator#readme",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
