@@ -1,8 +1,4 @@
-class TitleScene extends Phaser.Scene {
-    constructor () {
-        super('TitleScene')
-    }
-
+class TitleScene {
     preload () {
         this.load.image('sky', 'assets/skies/space3.png');
         this.load.image('logo', 'assets/sprites/phaser3-logo.png');

@@ -7,8 +7,10 @@ var config = {
         arcade: {
             gravity: { y: 200 }
         }
-    },
-    scene: new TitleScene
+    }
 };
 
 var game = new Phaser.Game(config);
+
+game.scene.add("Title", TitleScene);
+game.scene.start("Title");
